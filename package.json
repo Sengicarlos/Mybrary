@@ -1,0 +1,24 @@
+{
+  "name": "project-6",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
